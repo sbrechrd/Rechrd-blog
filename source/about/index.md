@@ -13,12 +13,12 @@ date: 2024-04-09 17:25:44
 	希望您能愉悦接受
 
 <!--评论区-->
-<link rel="stylesheet" href="/about/gitalk.css">
-<script src="/about/gitalk.min.js"></script>
-<br><br><br><br><br><br><br>
+<link rel="stylesheet" href="/css/gitalk.css">
+<script src="/js/gitalk.min.js"></script>
+<script src="/js/md5.min.js"></script>
+<br><br><br><br><br>
 <center>——————评论区——————</center>
-</div>
-<div id="gitalk-container"></div>
+<div id="gitalk-container">
 <script>
     var gitalk = new Gitalk({
         clientID: 'f07e673bbda4d7974fe7',
@@ -26,7 +26,7 @@ date: 2024-04-09 17:25:44
         repo: 'Rechrd-blog',
         owner: 'sbrechrd',
         admin: ['sbrechrd'],
-        id: location.pathname,      
+        id: md5(location.pathname),      
         distractionFreeMode: false,  
         enableHotKey: true          
     });

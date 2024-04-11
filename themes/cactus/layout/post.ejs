@@ -17,8 +17,9 @@
 </article>
 
 <!--评论区-->
-<link rel="stylesheet" href="/about/gitalk.css">
-<script src="/about/gitalk.min.js"></script>
+<link rel="stylesheet" href="/css/gitalk.css">
+<script src="/js/gitalk.min.js"></script>
+<script src="/js/md5.min.js"></script>
 <br><br><br><br><br>
 <center>——————评论区——————</center>
 <div id="gitalk-container">
@@ -29,11 +30,12 @@
         repo: 'Rechrd-blog',
         owner: 'sbrechrd',
         admin: ['sbrechrd'],
-        id: location.pathname,      
+        id: md5(location.pathname),      
         distractionFreeMode: false,  
         enableHotKey: true          
     });
     gitalk.render('gitalk-container');
 </script>
 <!--Done-->
+
 <%- partial('_partial/comments') %>
