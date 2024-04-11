@@ -11,6 +11,16 @@ author: Xiankang Qian
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
+  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://www.rechrd.top
