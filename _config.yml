@@ -12,11 +12,7 @@ language: zh-CN
 timezone: 'Asia/Shanghai'
 
 sitemap:
-  path: 
-    - sitemap.xml
-    - sitemap.txt
-  template: ./sitemap_template.xml
-  template_txt: ./sitemap_template.txt
+  path: sitemap.xml
   rel: false
   tags: true
   categories: true
