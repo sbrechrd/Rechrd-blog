@@ -2,7 +2,7 @@
 title: rechrd
 ---
 
-我是Rechrd
+我是Rechrd（钱显康）
 我专门来扰乱穿戴区
 专门坑钱
 什么编程技术都不会
