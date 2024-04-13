@@ -19,6 +19,7 @@ nav:
   articles: /archives/
 #  search: /search/
   projects: https://github.com/sbrechrd
+  Rechrd: /rechrd
 #  旧版页面: /rechrdsbs/
 
 # Links to your social media accounts.
@@ -172,14 +173,6 @@ mathjax:
 disqus:
   enabled: false # 确定 disqus 评论是关闭的
   shortname: cactus-1
-
-gitalk:
-    enabled: true # 开关开启
-    owner: sbrechrd # 你的 github 用户名
-    repo: Rechrd-blog # 保存评论的 repo 库
-    admin: ['sbrechrd'] # 管理员，你的 github 用户名
-    clientID: f07e673bbda4d7974fe7
-    clientSecret: 0f30a0c569f86502b670ccbdc5c0c9601a6f8421
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
