@@ -1,5 +1,10 @@
 [
-	{
+    {
+       "name":"我爱钱将军",
+       "url":"/rechrdsbs",
+       "desc":"本站新版我爱钱将军"
+    },
+    {
        "name":"本项目主页",
        "url":"https://github.com/sbrechrd/Rechrd-blog",
        "desc":"欢迎fork项目"
@@ -8,11 +13,6 @@
        "name":"Rechrd16",
        "url":"https://github.com/rechrd16",
        "desc":"旧版项目主页"
-    },
-    {
-       "name":"我爱钱将军",
-       "url":"/rechrdsbs",
-       "desc":"本站新版我爱钱将军"
     },
     {
        "name":"我爱钱将军（旧版）",
