@@ -1,6 +1,9 @@
 ---
 title: rechrd
+date: 2024-04-13 17:00:00
 ---
+
+***rechrd***
 
 大家好
 我是Rechrd
