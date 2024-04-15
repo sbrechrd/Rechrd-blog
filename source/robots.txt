@@ -2,5 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Disallow: /rechrdsbs
 Sitemap: https://www.rechrd.top/sitemap.xml
