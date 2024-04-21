@@ -3,4 +3,5 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Disallow: /2024/04/16/
+Disallow: /2024/04/21/
 Sitemap: https://www.rechrd.top/sitemap.xml
