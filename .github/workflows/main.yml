@@ -20,4 +20,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
         # The repository the action should deploy to
-        PUBLISH_REPOSITORY: sbrechrd/Rechrd-blog
+        PUBLISH_REPOSITORY: sbrechrd/sbrechrd.github.io
