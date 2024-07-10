@@ -22,7 +22,7 @@ tags:
 <img src="/images/img_rechrdChat(3).png" alt="message" style="width:30em">  
 <img src="/images/img_rechrdChat(4).png" alt="message" style="width:30em">  
 
-受害者gohj99对此锐评
+**受害者gohj99对此锐评**
 <img src="/images/img_gohj99Chat(1).png" alt="message" style="width:30em">  
 <img src="/images/img_gohj99Chat(2).png" alt="message" style="width:30em">  
 <img src="/images/img_gohj99Chat(3).png" alt="message" style="width:30em">  
