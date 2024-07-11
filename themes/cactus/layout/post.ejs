@@ -17,25 +17,16 @@
 </article>
 
 <!--评论区-->
-<script src="https://lib.baomitu.com/twikoo/1.6.38/twikoo.all.min.js" integrity="sha384-4KfOjEinLSkv1i1J8TzlkC/RTnuiLoR1OLerVgjEKoH5djYtbf7mzEFsz9p3nfuA" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="/css/gitalk.css">
-<script src="/js/gitalk.min.js"></script>
 <script src="/js/md5.min.js"></script>
 <br><br><br><br><br>
 <center>——————评论区——————</center>
-<div id="gitalk-container">
-<script>
-    var gitalk = new Gitalk({
-        clientID: 'f07e673bbda4d7974fe7',
-        clientSecret: '0f30a0c569f86502b670ccbdc5c0c9601a6f8421',
-        repo: 'Rechrd-blog',
-        owner: 'sbrechrd',
-        admin: ['sbrechrd'],
-        id: md5(location.pathname),      
-        distractionFreeMode: false,  
-        enableHotKey: true          
-    });
-    gitalk.render('gitalk-container');
+<div id="tcomment"></div>
+<script src="/js/twikoo.all.min.js"></script><script>
+twikoo.init({
+  envId: 'https://rechrd-blog-twikoo.rechrd.top/',
+  el: '#tcomment', // 容器元素
+  path: md5(location.pathname),
+})
 </script>
 <!--Done-->
 
